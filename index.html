@@ -6,45 +6,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <h3 id="headerLogo">Header Logo</h3>
-            <span><a>1</a><a>2</a><a>3</a></span>
-        </nav>
-        <div>
-            <h1>This website is awesome</h1>
-            <p>This website is subtext</p>
-            <button>Sign up</button>
-            <aside>
-                <img src="" alt="">
+        <section class="navbar navbar-expand-lg" id="navContainer">
+            <nav class="container-fluid" id="allNavs">
+                <a class="navbar-brand" id="headerLogo" href="#">
+                    <img id="logo" src="/images/logo.png" alt="">
+                </a>
+                <ul class="fs-4" id="navLinks">
+                    <li class="me-4">About</li>
+                    <li class="me-4">History</li>
+                    <li class="me-4">Where to Buy</li>
+                </ul>
+            </nav>
+        </section>
+        <div class="" id="headerBody">
+            <div class="d-inline-block" id="aboutContainer">
+                <h1 id="title">Dogecoin Fanpage</h1>
+                <p id="titleSubtext">Why Dogecoin? Dogecoin is one of the most lucrative
+                    cryptocurrencies traded today.
+                    If you bought $1000 at the beginnning of 2021, you would have $121,052 at the top of the previous
+                    peak. Disclaimer: NFA.</p>
+                <button id=firstSignup>Buy now</button>
+            </div>
+            <aside class="d-inline-block">
+                <img class="img-fluid" src="/images/dogecoin.jpg" id="dogeImg" alt="dogecoin"
+                    placeholder="img goes here">
             </aside>
         </div>
     </header>
-    <section>
+    <section id="cards">
         <h2>Some random info.</h2>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="card d-inline-flex" id="cardOne">
+            <img src="images/card1.jpg" class="card-img-top" alt="">
+            <div class="card-text">1</div>
+        </div>
+        <div class="card d-inline-flex" id="cardTwo">
+            <img src="images/card1.jpeg" class="card-img-top" alt="">
+            <div class="card-text">2</div>
+        </div>
+        <div class="card d-inline-flex" id="cardThree">
+            <img src="images/card3.jpg" class="card-img-top" alt="">
+            <div class="card-text">3</div>
+        </div>
+        <div class="card d-inline-flex" id="cardFour">
+            <img src="images/card4.jpg" class="card-img-top" alt="">
+            <div class="card-text">4</div>
+        </div>
     </section>
-    <section>
+    <section id="quote">
         <figure>
             <blockquote>
-                <p></p>
-                <figcaption></figcaption>
+                <p>Dogecoin is the people's crypto</p>
+                <figcaption>-Elon Musk on Twitter</figcaption>
             </blockquote>
         </figure>
     </section>
     <footer>
-        <div>
+        <div id="footerButton">
             <h3>Call to action! It's time!</h3>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <button>Sign up</button>
+            <p>It's time to get some higher risk/reward exposure for your investment!</p>
+            <button>Buy Dogecoin</button>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

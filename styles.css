@@ -1,1 +1,51 @@
 
+header {
+    background-color: #1F2937;
+    color: white;
+}
+
+#logo {
+    width: 160px;
+}
+
+#dogeImg {
+    width: 600px;
+}
+
+#aboutContainer {
+    width: 500px;
+}
+
+#cards div {
+    max-width: 300px;
+}
+
+#cards div img {
+    height: 200px;
+    width: 200px;
+}
+
+#navBar {
+   
+
+    
+}
+
+#allNavs {
+    display: flex;
+    
+}
+
+#headerLogo {
+
+}
+
+#navLinks {
+    margin-left: ;
+    
+}
+
+#navLinks li {
+    list-style: none;
+    display: inline-block;
+}
